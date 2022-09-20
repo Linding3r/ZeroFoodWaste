@@ -1,0 +1,21 @@
+
+.bg {
+    background-image: url("/static/images/background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #b6c471;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    height: 100%;
+}
+
+
+@media (max-width: 600px) {
+    nav, article {
+        width: 100%;
+        height: auto;
+    }
+}
