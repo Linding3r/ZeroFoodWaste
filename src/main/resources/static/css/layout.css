@@ -54,6 +54,6 @@ h1 {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 25px;
+    gap: 10px 35px;
     grid-template-columns: auto auto auto auto;
 }
