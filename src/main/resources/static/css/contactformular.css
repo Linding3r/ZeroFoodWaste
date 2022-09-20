@@ -9,12 +9,32 @@
     overflow-x: hidden;
 }
 
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(223, 240, 138);
+    text-shadow: 3px 2px black;
+    margin-bottom: -5px;
+
+
+}
+h4 {
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: rgb(223, 240, 138);
+    text-shadow: 3px 2px black;
+    margin-bottom: -5px;
+
+
+}
+
 .commentbox {
     color: brown;
     margin: auto;
     height: 200px;
     width: 240px;
-    padding: 10px;
     opacity: 80%;
     resize: none;
     border-color: black;
@@ -24,4 +44,5 @@ input[type="text"] {
     width: 240px;
     height: 40px;
     color: brown;
+    opacity: 90%;
 }
