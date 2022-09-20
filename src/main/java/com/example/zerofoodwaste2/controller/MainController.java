@@ -16,6 +16,10 @@ public class MainController {
   public String contactSite() {
     return "contact";
   }
+  @GetMapping("/toGood")
+  public String tooGood(){
+    return "toGood";
+  }
 }
 
 

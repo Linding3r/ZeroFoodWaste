@@ -57,3 +57,17 @@ h1 {
     gap: 10px 35px;
     grid-template-columns: auto auto auto auto;
 }
+
+.zoom {
+    padding: 50px;
+    transition: transform .2s;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.image-container.zoom{
+
+}
