@@ -1,7 +1,7 @@
 
 .bg{
-    background-image: url("../images/background.png");
-    background-color: #B6C471;
+    background-image: url("../images/RemovedBackground.png");
+    background-color: #93A120;
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,21 +10,59 @@
 }
 
 body {
-    font-family: Montserrat, sans-serif;
-    height: 100%;
-
+    font-family: Montserrat, Helvetica, sans-serif;
 }
 
 
 @media (max-width: 600px) {
-    nav, article {
+    nav, article .grid-container{
         width: 100%;
-        height: auto;
+        display: grid;
     }
 }
 
-.myScrollableDiv {
-    background: rgb(223, 240,138, 0.5);
-    width: auto;
+.grid-container {
+    display: grid;
+    gap: 10px 25px;
+    grid-template-columns: auto auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.grid-item {
+    background: rgb(223, 240,138, 0.7);
+    padding: 20px;
     border-radius: 10px;
 }
+
+.grid-item-images {
+    background: rgb(223, 240,138, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+
+.image-container{
+    /*justify-content: center;*/
+    align-items: center;
+    display: grid;
+    gap: 10px 25px;
+    grid-template-columns: auto auto auto auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+
+
+/*
+.myScrollableDiv {
+    background: rgb(223, 240,138, 0.5);
+    margin-top: 5px;
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    !*height: auto;*!
+}
+*/
