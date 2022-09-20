@@ -1,4 +1,4 @@
-.nav-container{
+.nav-container {
     width: 100%;
     height: 85px;
     background: rgb(223, 240,138, 0.5);
@@ -40,6 +40,9 @@ nav{
     #nav-toggle:checked ~ .left-menu {
         display: grid;
         grid-row: 2;
+        background: rgb(223, 240,138, 0.5);
+
+
     }
 }
 nav a{
@@ -48,7 +51,6 @@ nav a{
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
 
-    transition: .3s all ease-in-out;
 }
 nav a:hover{
     opacity: .7;
