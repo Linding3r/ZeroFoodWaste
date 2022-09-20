@@ -45,27 +45,27 @@ h1 {
     box-shadow: 1px 2px black;
     line-height: 1.6;
     background: rgb(223, 240, 138, 0.9);
-    padding: 20px;
+    padding: 10px;
     border-radius: 10px;
-
 }
 
 .image-container {
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px 35px;
+    gap: 25px 20px;
     grid-template-columns: auto auto auto auto;
+
 }
 
 .zoom {
-    padding: 50px;
+    /*padding: 50px;*/
     transition: transform .2s;
     margin: 0 auto;
 }
 
 .zoom:hover {
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
 .image-container.zoom{
