@@ -4,10 +4,8 @@
     padding: 10px;
     text-align: center;
     resize: none;
-    border-color: black;
-    overflow: scroll;
-    overflow-x: hidden;
-    margin-left: 20px;
+    border-radius: 5%;
+
 }
 
 h3 {
@@ -38,6 +36,7 @@ h4 {
     width: 240px;
     opacity: 80%;
     resize: none;
+    border-radius: 10px;
 
 }
 input[type="text"] {
@@ -45,4 +44,19 @@ input[type="text"] {
     height: 40px;
     color: brown;
     opacity: 90%;
+    border-radius: 10px;
 }
+
+input[type="text"]:focus {
+  outline: none;
+    background-color: #B6C471;
+}
+
+textarea:focus {
+
+    outline: none;
+    background-color: #B6C471;
+
+}
+
+
