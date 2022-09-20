@@ -24,8 +24,7 @@ body {
 }
 
 .myScrollableDiv {
-    background: #B6C471;
-    opacity: 0.6;
+    background: rgb(223, 240,138, 0.5);
     width: auto;
     border-radius: 10px;
 }
