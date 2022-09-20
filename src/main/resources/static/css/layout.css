@@ -1,10 +1,12 @@
 
 .bg {
-    background-image: url("/static/images/background.png");
+    background-image: url("../images/background.png");
+    background-color: #B6C471;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
-    background-color: #b6c471;
 }
 
 body {
@@ -18,4 +20,15 @@ body {
         width: 100%;
         height: auto;
     }
+}
+
+.myScrollableDiv {
+    position: fixed;
+    top: 100px; /* same height as navbar */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    color: black;
+    background: none;
 }
