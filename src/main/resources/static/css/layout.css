@@ -39,18 +39,13 @@ h1 {
 }
 
 .grid-item {
-    outline: 5px black;
+    outline: 1px solid black;
+    box-shadow: 1px 2px black;
     line-height: 1.6;
     background: rgb(223, 240, 138, 0.9);
     padding: 20px;
     border-radius: 10px;
-}
 
-.grid-item-images {
-    background: rgb(223, 240, 138, 0.9);
-    padding: 20px;
-    border-radius: 10px;
-    width: auto;
 }
 
 .image-container {
