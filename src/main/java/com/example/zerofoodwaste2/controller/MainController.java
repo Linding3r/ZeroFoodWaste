@@ -11,5 +11,11 @@ public class MainController {
   public String index() {
     return "index";
   }
+
+  @GetMapping("/contact")
+  public String contactSite() {
+    return "contact";
+  }
 }
+
 

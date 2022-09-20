@@ -1,0 +1,25 @@
+.formula {
+    color: brown;
+    opacity: 80%;
+    padding: 10px;
+    text-align: center;
+    resize: none;
+    border-color: black;
+}
+
+.commentbox {
+    color: brown;
+    margin: auto;
+    height: 200px;
+    width: 240px;
+    padding: 10px;
+    opacity: 80%;
+    resize: none;
+    border-color: black;
+
+}
+input[type="text"] {
+    width: 240px;
+    height: 40px;
+    color: brown;
+}
