@@ -1,5 +1,5 @@
 
-.bg{
+.bg {
     background-image: url("../images/RemovedBackground.png");
     background-color: #93A120;
     height: 100%;
@@ -13,9 +13,17 @@ body {
     font-family: Montserrat, Helvetica, sans-serif;
 }
 
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #B6C471;
+    text-shadow: 2px 2px black;
+
+}
 
 @media (max-width: 600px) {
-    nav, article .grid-container{
+    nav, article .grid-container .image-container {
         width: 100%;
         display: grid;
     }
@@ -28,41 +36,26 @@ body {
     margin-bottom: 10px;
     margin-top: 10px;
 }
+
 .grid-item {
-    background: rgb(223, 240,138, 0.7);
+    line-height: 1.6;
+    background: rgb(223, 240, 138, 0.7);
     padding: 20px;
     border-radius: 10px;
 }
 
 .grid-item-images {
-    background: rgb(223, 240,138, 0.7);
+    background: rgb(223, 240, 138, 0.7);
     padding: 20px;
     border-radius: 10px;
-    justify-content: center;
-    align-items: center;
     width: auto;
 }
 
-.image-container{
-    /*justify-content: center;*/
-    align-items: center;
-    display: grid;
+.image-container {
+    justify-content: center;
+
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px 25px;
     grid-template-columns: auto auto auto auto;
-    margin-bottom: 10px;
-    margin-top: 10px;
 }
-
-
-
-
-/*
-.myScrollableDiv {
-    background: rgb(223, 240,138, 0.5);
-    margin-top: 5px;
-    width: 50%;
-    border-radius: 10px;
-    padding: 10px;
-    !*height: auto;*!
-}
-*/
