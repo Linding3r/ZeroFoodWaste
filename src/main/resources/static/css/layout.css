@@ -30,6 +30,7 @@ h1 {
     nav, article .grid-container .image-container {
         width: 100%;
         display: grid;
+
     }
 }
 
