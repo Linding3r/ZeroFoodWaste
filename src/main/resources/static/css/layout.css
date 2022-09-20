@@ -17,7 +17,7 @@ h1 {
     font-size: 3.5rem;
     text-align: center;
     text-transform: capitalize;
-    color: #B6C471;
+    color: rgb(223, 240, 138);
     text-shadow: 3px 2px black;
 
 }
@@ -30,7 +30,8 @@ h1 {
 }
 
 .grid-container {
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     gap: 10px 25px;
     grid-template-columns: auto auto;
     margin-bottom: 10px;
@@ -38,14 +39,15 @@ h1 {
 }
 
 .grid-item {
+    outline: 5px black;
     line-height: 1.6;
-    background: rgb(223, 240, 138, 0.7);
+    background: rgb(223, 240, 138, 0.9);
     padding: 20px;
     border-radius: 10px;
 }
 
 .grid-item-images {
-    background: rgb(223, 240, 138, 0.7);
+    background: rgb(223, 240, 138, 0.9);
     padding: 20px;
     border-radius: 10px;
     width: auto;
@@ -53,7 +55,6 @@ h1 {
 
 .image-container {
     justify-content: center;
-
     display: flex;
     flex-wrap: wrap;
     gap: 10px 25px;
