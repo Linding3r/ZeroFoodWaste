@@ -4,6 +4,8 @@
     background: rgb(223, 240, 138, 0.9);
     margin: 0;
     border-radius: 10px;
+    outline: 1px solid black;
+    box-shadow: 1px 2px black;
 }
 
 nav {

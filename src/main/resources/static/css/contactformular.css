@@ -5,6 +5,8 @@
     text-align: center;
     resize: none;
     border-color: black;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .commentbox {
