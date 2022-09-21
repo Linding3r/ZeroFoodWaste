@@ -1,6 +1,6 @@
 
 .bg {
-    background-image: url("../images/RemovedBackground.png");
+    background-image: url("https://i.imgur.com/N8agZqq.png");
     background-color: #93A120;
     height: 100%;
     background-position: center;
@@ -15,6 +15,7 @@
 
 body {
     font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 h1 {
@@ -38,8 +39,7 @@ h1 {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 10px 25px;
-    grid-template-columns: auto auto;
+    gap: 10px 20px;
     margin-bottom: 10px;
     margin-top: 10px;
 }
@@ -47,11 +47,11 @@ h1 {
 .grid-item {
     text-align: center;
     outline: 1px solid black;
-    box-shadow: 1px 2px black;
     line-height: 1.6;
     background: rgb(223, 240, 138, 0.9);
     padding: 10px;
     border-radius: 10px;
+    justify-content: space-between;
 }
 
 .image-container {
@@ -64,7 +64,6 @@ h1 {
 }
 
 .zoom {
-    /*padding: 50px;*/
     transition: transform .2s;
     margin: 0 auto;
 }
