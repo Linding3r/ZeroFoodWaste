@@ -28,7 +28,7 @@ h1 {
 }
 
 @media (max-width: 600px) {
-    nav, article .grid-container .image-container {
+    nav, article .grid-container .image-container{
         width: 100%;
         display: grid;
 
