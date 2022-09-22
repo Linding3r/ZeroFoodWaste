@@ -60,4 +60,16 @@ textarea:focus {
 
 }
 
+input[type="email"]:focus {
+    outline: none;
+    background-color: #B6C471;
+}
+
+input[type="email"] {
+    width: 240px;
+    height: 40px;
+    color: brown;
+    opacity: 90%;
+    border-radius: 10px;
+}
 
