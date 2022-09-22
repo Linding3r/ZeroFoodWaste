@@ -1,6 +1,6 @@
 .formula {
-    color: brown;
-    opacity: 80%;
+    color: black;
+    opacity: 90%;
     padding: 10px;
     text-align: center;
     resize: none;
@@ -32,44 +32,45 @@ h4 {
 }
 
 .commentbox {
-    color: brown;
+    color: black;
     height: 200px;
     width: 240px;
-    opacity: 80%;
     resize: none;
+    opacity: 90%;
     border-radius: 10px;
 
 }
 input[type="text"] {
     width: 240px;
     height: 40px;
-    color: brown;
+    color: black;
     opacity: 90%;
     border-radius: 10px;
 }
 
 input[type="text"]:focus {
   outline: none;
-    background-color: #B6C471;
+    background-color: white;
+    opacity: 90%;
 }
 
 textarea:focus {
-
     outline: none;
-    background-color: #B6C471;
-
+    background-color: white;
+    opacity: 90%;
 }
 
 input[type="email"]:focus {
     outline: none;
-    background-color: #B6C471;
+    background-color: white;
+    opacity: 90%;
 }
 
 input[type="email"] {
     width: 240px;
     height: 40px;
-    color: brown;
-    opacity: 90%;
+    color: black;
     border-radius: 10px;
+    opacity: 90%;
 }
 
